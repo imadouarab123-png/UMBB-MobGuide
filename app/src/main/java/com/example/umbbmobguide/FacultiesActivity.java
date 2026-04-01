@@ -1,4 +1,15 @@
 package com.example.umbbmobguide;
 
-public class FacultiesActivity {
+
+
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class FacultiesActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_faculties);
+    }
 }
