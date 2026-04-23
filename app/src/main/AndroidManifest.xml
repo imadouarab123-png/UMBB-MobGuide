@@ -29,6 +29,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Departments_page"
+            android:exported="true"/>
+        <activity android:name=".Specialities_page"
+            android:exported="true"/>
     </application>
 
 </manifest>

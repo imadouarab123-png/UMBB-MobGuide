@@ -7,18 +7,18 @@
     android:gravity="center_vertical">
 
     <ImageView
-        android:id="@+id/imgLogo"
+        android:id="@+id/imgDepartment"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/ic_launcher_foreground" />
 
     <TextView
         android:textColor="@color/white"
-        android:id="@+id/txtName"
+        android:id="@+id/txtDepartmentName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-        android:text="Faculty Name"
+        android:text="Department Name"
         android:textSize="18sp" />
 
 </LinearLayout>

@@ -8,6 +8,6 @@ public class AboutUS extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_about_u_s); // reuse same XML
+        setContentView(R.layout.about_u_s); // reuse same XML
     }
 }

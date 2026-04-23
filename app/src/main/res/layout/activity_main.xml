@@ -7,9 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
    tools:openDrawer="start"
-    android:background="#ffff"
-    android:layoutDirection="ltr"
 
+    android:layoutDirection="ltr"
+android:background="@drawable/background_main"
 
     >
 
@@ -30,10 +30,10 @@
         app:title="MobGuide"
 />
 
-    <FrameLayout
+    <LinearLayout
 
 
-        android:id="@+id/FrameLayout"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="0dp"
@@ -202,7 +202,7 @@ android:clickable="true"
 <!--            android:layout_marginBottom="20dp"-->
 <!--            android:text="Faculties" />-->
     </LinearLayout>
-     </FrameLayout>
+     </LinearLayout>
 </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
