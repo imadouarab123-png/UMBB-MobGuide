@@ -46,4 +46,15 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+
+
+        <string name="app_description">Discover your university easily</string>
+        <string name="stats_title">University Statistics</string>
+
+        <string name="logo_desc">University Logo</string>
+
+        <string name="world_icon">🌍</string>
+        <string name="world_rank">World Ranking</string>
+        <string name="world_rank_value">#2500</string>
+
 </resources>
