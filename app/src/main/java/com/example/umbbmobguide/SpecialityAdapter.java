@@ -25,6 +25,7 @@ public class SpecialityAdapter extends ArrayAdapter<Speciality> {
                     .inflate(R.layout.item_speciality, parent, false);
         }
 
+
         TextView name = convertView.findViewById(R.id.name);
         name.setText(item.name);
 
