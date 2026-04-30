@@ -58,6 +58,8 @@
     <string name="email_faculty">Send Email</string>
     <string name="location_faculty">Find Location</string>
     <!-- Departments -->
+    <string name="departments_txt">Departments</string>
+
     <string name="dept_maths">Department of Mathematics</string>
     <string name="dept_cs">Department of Computer Science</string>
     <string name="dept_physics">Department of Physics</string>

@@ -57,6 +57,7 @@
     <string name="location_faculty">تحديد الموقع</string>
 
     <!-- Departments text-->
+    <string name="departments_txt">الأقسام</string>
     <string name="dept_maths">قسم الرياضيات</string>
     <string name="dept_cs">قسم الإعلام الآلي</string>
     <string name="dept_physics">قسم الفيزياء</string>
