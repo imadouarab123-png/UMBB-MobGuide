@@ -22,14 +22,15 @@ public class FacultiesActivity extends AppCompatActivity {
         SearchView searchview = findViewById(R.id.search);
         ArrayList<Faculty> list = new ArrayList<>();
 
-        list.add(new Faculty("Faculty of Sciences", R.drawable.fs_umbb));
-        list.add(new Faculty("Faculty of Technology", R.drawable.ft_umbb));
-        list.add(new Faculty("Faculty of Hydrocarbons and Chemistry", R.drawable.fhc_umbb));
-        list.add(new Faculty("Faculty of Law and Political Science", R.drawable.fp_umbb));
-        list.add(new Faculty("Faculty of Letters and Languages", R.drawable.fll_umbb));
-        list.add(new Faculty("Faculty of Economic Sciences, Commercial Sciences, and Management Sciences", R.drawable.fse_umbb));
-        list.add(new Faculty("Institute of Electrical and Electronic Engineering", R.drawable.igee_umbb));
-        list.add(new Faculty("Institute of Applied Sciences and Technology", R.drawable.ista));
+        list.add(new Faculty(getString(R.string.faculty_sciences), R.drawable.fs_umbb));
+        list.add(new Faculty(getString(R.string.faculty_technology), R.drawable.ft_umbb));
+        list.add(new Faculty(getString(R.string.faculty_hydrocarbons), R.drawable.fhc_umbb));
+        list.add(new Faculty(getString(R.string.faculty_law), R.drawable.fp_umbb));
+        list.add(new Faculty(getString(R.string.faculty_letters), R.drawable.fll_umbb));
+        list.add(new Faculty(getString(R.string.faculty_economics), R.drawable.fse_umbb));
+        list.add(new Faculty(getString(R.string.institute_electrical), R.drawable.igee_umbb));
+        list.add(new Faculty(getString(R.string.institute_applied_tech), R.drawable.ista));
+
 //        list.add(new Faculty("Annexe Médecine", R.drawable.logo_umbb));
 //        list.add(new Faculty("Annexe ENS - Boumerdes", R.drawable.logo_umbb));
         FacultyAdapter adapter = new FacultyAdapter(this, list);

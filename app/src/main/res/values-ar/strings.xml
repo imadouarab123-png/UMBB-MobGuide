@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--menu bar-->
+    <string name="exit_App" >الخروج من التطبيق</string>
+    <string name="setting_menu">الإعدادات</string>
+    <string name="aboutUs_menu">من نحن</string>
+
+    <!-- the settings page-->
+    <string name="settings">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="english">English</string>
+
+    <!-- the main page-->
+    <string name="explore_faculties">استكشف الكليات</string>
+    <string name="explore_faculties_desc">استكشف الكليات وأقسامها</string>
+    <string name="about_university">معلومات عن الجامعة</string>
+    <string name="about_university_desc">تعرف على المزيد عن جامعة بومرداس</string>
+    <string name="your_guide">دليلك لجامعة بومرداس</string>
+
+    <!-- the about page string-->
+    <string name="smart_companion">رفيقك الجامعي الذكي</string>
+    <string name="university_overview">نظرة عامة على الجامعة</string>
+    <string name="students">الطلاب</string>
+    <string name="faculties">الكليات</string>
+    <string name="world_rank">الترتيب العالمي</string>
+    <string name="national_rank">الترتيب الوطني</string>
+    <string name="contact_university">التواصل مع الجامعة</string>
+    <string name="call_university">الاتصال بالجامعة</string>
+    <string name="send_email">إرسال بريد إلكتروني</string>
+
+    <!-- the faculty page text-->
+    <string name="searchHint">ابحث هنا عن كلية</string>
+
+    <!-- Faculties -->
+    <string name="faculty_sciences">كلية العلوم</string>
+    <string name="faculty_technology">كلية التكنولوجيا</string>
+    <string name="faculty_hydrocarbons">كلية المحروقات والكيمياء</string>
+    <string name="faculty_law">كلية الحقوق والعلوم السياسية</string>
+    <string name="faculty_letters">كلية الآداب واللغات</string>
+    <string name="faculty_economics">كلية العلوم الاقتصادية والعلوم التجارية وعلوم التسيير</string>
+    <string name="institute_electrical">معهد الهندسة الكهربائية والإلكترونية</string>
+    <string name="institute_applied_tech">معهد العلوم والتقنيات التطبيقية</string>
+
+    <!-- Faculty Descriptions -->
+    <string name="fs_desc">تعتبر كلية العلوم بجامعة امحمد بوقرة ببومرداس معترفاً بها في مجال التعليم والبحث العلمي. توفر تدريباً شاملاً في التخصصات، وتزود الطلاب بالمعرفة والمهارات اللازمة لمواجهة تحديات العالم الحقيقي من خلال المناهج العلمية.</string>
+    <string name="ft_desc">تعتبر كلية التكنولوجيا بجامعة امحمد بوقرة ببومرداس معترفاً بها في مجال التعليم التقني والبحث التطبيقي. توفر تدريباً شاملاً في تخصصات مثل الهندسة الميكانيكية، وتزود الطلاب بالمعرفة والمهارات اللازمة لمواجهة تحديات العالم الحقيقي من خلال الابتكار التكنولوجي.</string>
+    <string name="fhc_desc">تكيفت كلية المحروقات والكيمياء بجامعة امحمد بوقرة ببومرداس باستمرار لمواجهة تحديات التطورات التكنولوجية السريعة في مجال المحروقات. الهدف هو تكوين خريجين بالمعرفة والمهارات اللازمة للبحث أو التطوير أو الإنتاج أو التدريس.</string>
+    <string name="law_desc">توفر كلية الحقوق والعلوم السياسية بجامعة امحمد بوقرة ببومرداس تعليماً جيداً في الدراسات القانونية والعلوم السياسية. تلتزم الكلية بتدريب الطلاب على التفكير القانوني، والتحليل السياسي، والمسؤولية المدنية.</string>
+    <string name="fll_desc">توفر كلية الآداب واللغات بجامعة امحمد بوقرة ببومرداس تعليماً جيداً في الأدب واللسانيات واللغات الأجنبية. تلتزم الكلية بتطوير الكفاءة اللغوية للطلاب ومهاراتهم التحليلية ووعيهم الثقافي.</string>
+    <string name="fse_desc">توفر كلية العلوم الاقتصادية والعلوم التجارية وعلوم التسيير بجامعة امحمد بوقرة ببومرداس تعليماً جيداً في الاقتصاد والأعمال والتسيير. تلتزم الكلية بتطوير مهارات الطلاب التحليلية والإدارية واتخاذ القرار.</string>
+    <string name="igee_desc">يوفر معهد الهندسة الكهربائية والإلكترونية بجامعة امحمد بوقرة ببومرداس تعليماً جيداً في الأنظمة الكهربائية والدوائر الإلكترونية والأتمتة. يلتزم المعهد بتطوير المهارات التقنية والتحليلية للطلاب ومهارات حل المشكلات.</string>
+    <string name="ista_desc">تأسس معهد العلوم والتقنيات التطبيقية (ISTA) بجامعة امحمد بوقرة ببومرداس استجابة للمخاوف الوطنية المتعلقة بقابلية توظيف الخريجين وإدماجهم في القطاع السوسيو-اقتصادي.</string>
+
+    <string name="contact_faculty">اتصال</string>
+    <string name="call_faculty">الاتصال بالكلية</string>
+    <string name="email_faculty">إرسال بريد إلكتروني</string>
+    <string name="location_faculty">تحديد الموقع</string>
+
+    <!-- Departments text-->
+    <string name="dept_maths">قسم الرياضيات</string>
+    <string name="dept_cs">قسم الإعلام الآلي</string>
+    <string name="dept_physics">قسم الفيزياء</string>
+    <string name="dept_chemistry">قسم الكيمياء</string>
+    <string name="dept_biology">قسم البيولوجيا</string>
+    <string name="dept_agronomy">قسم العلوم الفلاحية</string>
+    <string name="dept_sports">قسم التربية البدنية والرياضية (STAPS)</string>
+
+    <string name="dept_industrial_process">قسم هندسة الطرائق الصناعية</string>
+    <string name="dept_food_tech">قسم تكنولوجيا الأغذية</string>
+    <string name="dept_env_eng">قسم الهندسة البيئية</string>
+    <string name="dept_mech_eng">قسم الهندسة الميكانيكية</string>
+    <string name="dept_energetics">قسم الطاقوية</string>
+    <string name="dept_maintenance">قسم الصيانة الصناعية</string>
+    <string name="dept_materials">قسم علم وهندسة المواد</string>
+    <string name="dept_civil_eng">قسم الهندسة المدنية</string>
+
+    <string name="dept_earthquake">قسم هندسة الزلازل والجيوفيزياء والظواهر العشوائية</string>
+    <string name="dept_mining">قسم المكامن المنجمية والبترولية</string>
+    <string name="dept_transport">قسم نقل المحروقات والمعدات</string>
+    <string name="dept_chem_pharm">قسم هندسة الطرائق الكيميائية والصيدلانية</string>
+    <string name="dept_automation">قسم أتمتة وكهربة الطرائق</string>
+    <string name="dept_econ_marketing">قسم اقتصاد وتسويق المحروقات</string>
+
+    <string name="dept_public_law">قسم القانون العام</string>
+    <string name="dept_private_law">قسم القانون الخاص</string>
+    <string name="dept_political_science">قسم العلوم السياسية</string>
+
+    <string name="dept_arabic_lit">قسم الأدب العربي</string>
+    <string name="dept_french">قسم اللغة الفرنسية</string>
+    <string name="dept_english">قسم اللغة الإنجليزية</string>
+
+    <string name="dept_management">قسم علوم التسيير</string>
+    <string name="dept_commercial">قسم العلوم التجارية</string>
+    <string name="dept_econ_sci">قسم العلوم الاقتصادية</string>
+    <string name="dept_finance">قسم المالية والمحاسبة</string>
+
+    <string name="dept_auto_elec">قسم الأتمتة والهندسة الكهربائية</string>
+    <string name="dept_basic_edu">قسم التعليم الأساسي</string>
+    <string name="dept_electronics">قسم الإلكترونيك</string>
+
+    <string name="dept_mmq">قسم القياس والمترولوجيا والجودة (MMQ)</string>
+
+    <!-- Specialties page text-->
+    <string name="spec_is_license">أنظمة المعلومات (ليسانس)</string>
+    <string name="spec_web_license">تطوير الويب والإنفوجرافيك (ليسانس)</string>
+    <string name="spec_soft_master">هندسة البرمجيات ومعالجة المعلومات (ماستر)</string>
+    <string name="spec_ai_master">الذكاء الاصطناعي التطبيقي (ماستر)</string>
+
+    <string name="spec_math_license">الرياضيات (ليسانس)</string>
+    <string name="spec_math_app_license">الرياضيات التطبيقية (ليسانس)</string>
+    <string name="spec_data_license">علم البيانات (ليسانس)</string>
+    <string name="spec_math_ana_master">التحليل الرياضي (ماستر)</string>
+    <string name="spec_math_fin_master">الرياضيات المالية (ماستر)</string>
+    <string name="spec_stoch_master">النمذجة العشوائية والإحصاء (ماستر)</string>
+    <string name="spec_opt_master">الأمثلية والتسيير الاستراتيجي (ماستر)</string>
+
+    <string name="spec_phys_mat_license">فيزياء المواد (ليسانس)</string>
+    <string name="spec_phys_rad_license">فيزياء الإشعاعات (ليسانس)</string>
+    <string name="spec_phys_en_license">الفيزياء الطاقوية (ليسانس)</string>
+    <string name="spec_phys_fun_license">الفيزياء الأساسية (ليسانس)</string>
+    <string name="spec_phys_mat_master">فيزياء المواد (ماستر)</string>
+    <string name="spec_phys_en_ren_master">الفيزياء الطاقوية والطاقات المتجددة (ماستر)</string>
+    <string name="spec_phys_med_master">الفيزياء الطبية (ماستر)</string>
+    <string name="spec_phys_rad_master">فيزياء الإشعاعات (ماستر)</string>
+
+    <string name="spec_chem_mat_license">كيمياء المواد (ليسانس)</string>
+    <string name="spec_chem_org_license">الكيمياء العضوية (ليسانس)</string>
+    <string name="spec_chem_ana_license">الكيمياء التحليلية (ليسانس)</string>
+    <string name="spec_chem_mat_master">كيمياء المواد (ماستر)</string>
+    <string name="spec_chem_pharm_master">الكيمياء الصيدلانية (ماستر)</string>
+    <string name="spec_chem_env_master">الكيمياء البيئية (ماستر)</string>
+    <string name="spec_chem_ana_master">الكيمياء التحليلية (ماستر)</string>
+    <string name="spec_chem_org_master">الكيمياء العضوية (ماستر)</string>
+
+    <string name="spec_bio_health_license">البيوتكنولوجيا والصحة (ليسانس)</string>
+    <string name="spec_bio_micro_license">البيوتكنولوجيا الميكروبية (ليسانس)</string>
+    <string name="spec_bio_plant_license">بيوتكنولوجيا النبات وتحسين النبات (ليسانس)</string>
+    <string name="spec_bio_food_license">تكنولوجيا الأغذية ومراقبة الجودة (ليسانس)</string>
+    <string name="spec_bio_chem_license">الكيمياء الحيوية (ليسانس)</string>
+    <string name="spec_bio_org_license">بيولوجيا الكائنات (ليسانس)</string>
+    <string name="spec_bio_anim_license">بيولوجيا الحيوان والفيزيولوجيا (ليسانس)</string>
+    <string name="spec_bio_mol_license">البيولوجيا الجزيئية (ليسانس)</string>
+    <string name="spec_bio_eco_license">علم البيئة والمحيط (ليسانس)</string>
+    <string name="spec_bio_mol_path_master">البيوتكنولوجيا والباثولوجيا الجزيئية (ماستر)</string>
+    <string name="spec_bio_micro_master">البيوتكنولوجيا الميكروبية (ماستر)</string>
+    <string name="spec_bio_plant_master">بيوتكنولوجيا النبات (ماستر)</string>
+    <string name="spec_bio_nutri_master">التغذية وعلوم الأطعمة (ماستر)</string>
+    <string name="spec_bio_app_chem_master">الكيمياء الحيوية التطبيقية (ماستر)</string>
+    <string name="spec_bio_pop_master">بيولوجيا المجموعات والكائنات (ماستر)</string>
+    <string name="spec_bio_genet_master">علم الوراثة (ماستر)</string>
+    <string name="spec_bio_cell_phys_master">الفيزيولوجيا الخلوية والفيزيولوجيا المرضية (ماستر)</string>
+    <string name="spec_bio_mol_cell_master">البيولوجيا الجزيئية والخلوية (ماستر)</string>
+    <string name="spec_bio_biodiv_master">التنوع البيولوجي والمحيط (ماستر)</string>
+    <string name="spec_bio_micro_eco_master">علم البيئة الميكروبي (ماستر)</string>
+
+    <string name="spec_agri_prot_license">حماية النباتات (ليسانس)</string>
+    <string name="spec_agri_prod_license">الإنتاج النباتي (ليسانس)</string>
+    <string name="spec_agri_anim_license">الإنتاج الحيواني (ليسانس)</string>
+    <string name="spec_agri_phytopharm_master">علم الأدوية النباتية وحماية النباتات (ماستر)</string>
+    <string name="spec_agri_anim_nutri_master">الإنتاج الحيواني والتغذية (ماستر)</string>
+    <string name="spec_agri_crop_master">الإنتاج النباتي (ماستر)</string>
+    <string name="spec_agri_phytopath_master">أمراض النبات (ماستر)</string>
+
+    <string name="spec_staps_edu_license">التربية والنشاط البدني الرياضي (ليسانس)</string>
+    <string name="spec_staps_train_license">التدريب الرياضي التنافسي (ليسانس)</string>
+    <string name="spec_staps_phys_master">النشاط البدني والرياضي المدرسي (ماستر)</string>
+    <string name="spec_staps_elite_master">تدريب رياضيي النخبة (ماستر)</string>
+
+    <string name="spec_eng_process_license">هندسة الطرائق (ليسانس)</string>
+    <string name="spec_eng_food_master">هندسة الأغذية (ماستر)</string>
+    <string name="spec_eng_chem_master">الهندسة الكيميائية (ماستر)</string>
+    <string name="spec_eng_poly_master">هندسة البوليمرات (ماستر)</string>
+    <string name="spec_eng_mat_master">هندسة طرائق المواد (ماستر)</string>
+
+    <string name="spec_env_clim_license">هندسة المناخ (ليسانس)</string>
+    <string name="spec_env_health_license">الصحة والسلامة الصناعية (ليسانس)</string>
+    <string name="spec_env_eng_master">الهندسة البيئية (ماستر)</string>
+    <string name="spec_env_proc_master">هندسة الطرائق البيئية (ماستر)</string>
+    <string name="spec_env_water_master">هندسة وتسيير المياه (ماستر)</string>
+    <string name="spec_env_ren_mech_master">الطاقات المتجددة في الميكانيك (ماستر)</string>
+
+    <string name="spec_mech_const_license">الإنشاء الميكانيكي (ليسانس)</string>
+    <string name="spec_mech_en_license">الطاقوية (ليسانس)</string>
+    <string name="spec_mech_mat_license">هندسة المواد (ليسانس)</string>
+    <string name="spec_mech_const_master">الإنشاء الميكانيكي (ماستر)</string>
+    <string name="spec_mech_en_master">الطاقوية (ماستر)</string>
+    <string name="spec_mech_manuf_master">التصنيع الميكانيكي والإنتاجية (ماستر)</string>
+    <string name="spec_mech_mat_master">هندسة المواد (ماستر)</string>
+    <string name="spec_mech_turb_master">المنشآت الطاقوية والآلات التوربينية (ماستر)</string>
+    <string name="spec_mech_boiler_master">أعمال الغلايات والأنابيب (ماستر)</string>
+    <string name="spec_mech_metallic_master">الأعمال المعدنية والغلايات (ماستر)</string>
+
+    <string name="spec_main_ind_license">الصيانة الصناعية (ليسانس)</string>
+    <string name="spec_main_elec_license">الإلكتروميكانيك (ليسانس)</string>
+    <string name="spec_main_ind_master">الصيانة الصناعية (ماستر)</string>
+    <string name="spec_main_elec_master">الإلكتروميكانيك (ماستر)</string>
+    <string name="spec_main_mecha_master">الميكاترونيك (ماستر)</string>
+
+    <string name="spec_civil_license">الهندسة المدنية (ليسانس)</string>
+    <string name="spec_civil_geo_master">الجيوتقنية (ماستر)</string>
+    <string name="spec_civil_mat_master">مواد الهندسة المدنية (ماستر)</string>
+    <string name="spec_civil_struct_master">الهياكل (ماستر)</string>
+    <string name="spec_civil_struct_const_master">الهياكل والإنشاءات (ماستر)</string>
+
+    <string name="spec_hydro_seismic_license">الجيوفيزياء الزلزالية (ليسانس)</string>
+    <string name="spec_hydro_petro_master">الجيوفيزياء البترولية (ماستر)</string>
+    <string name="spec_hydro_mineral_license">الموارد المعدنية والطاقوية (ليسانس)</string>
+    <string name="spec_hydro_geol_master">الجيولوجيا البترولية (ماستر)</string>
+    <string name="spec_hydro_trans_license">نقل المحروقات (ليسانس)</string>
+    <string name="spec_hydro_mech_petro_license">ميكانيك الوحدات البتروكيميائية (ليسانس)</string>
+    <string name="spec_hydro_mech_field_license">ميكانيك ورشات الحقول البترولية (ليسانس)</string>
+    <string name="spec_hydro_trans_dist_master">نقل وتوزيع المحروقات (ماستر)</string>
+    <string name="spec_hydro_mech_petro_master">ميكانيك الوحدات البتروكيميائية (ماستر)</string>
+    <string name="spec_hydro_mech_field_master">ميكانيك ورشات الحقول البترولية (ماستر)</string>
+    <string name="spec_hydro_treat_license">تكنولوجيات ومعالجة النفط والغاز (ليسانس)</string>
+    <string name="spec_hydro_refining_master">التكرير (ماستر)</string>
+    <string name="spec_hydro_petro_tech_master">تكنولوجيا البتروكيمياء (ماستر)</string>
+    <string name="spec_hydro_instr_master">الآلات الدقيقة في الصناعة البتروكيميائية (ماستر)</string>
+    <string name="spec_hydro_auto_license">التحكم الآلي (ليسانس)</string>
+    <string name="spec_hydro_elec_license">الكهرباء الصناعية (ليسانس)</string>
+    <string name="spec_hydro_auto_master">التحكم الآلي (ماستر)</string>
+    <string name="spec_hydro_elec_master">الكهرباء الصناعية (ماستر)</string>
+    <string name="spec_hydro_econ_license">الاقتصاد البترولي (ليسانس)</string>
+    <string name="spec_hydro_econ_master">اقتصاد المحروقات (ماستر)</string>
+
+    <string name="spec_law_pub_license">القانون العام (ليسانس)</string>
+    <string name="spec_law_pub_master">القانون العام (ماستر)</string>
+    <string name="spec_law_priv_license">القانون الخاص (ليسانس)</string>
+    <string name="spec_law_priv_master">القانون الخاص (ماستر)</string>
+    <string name="spec_law_biz_master">قانون الأعمال (ماستر)</string>
+    <string name="spec_law_ir_license">العلاقات الدولية (ليسانس)</string>
+    <string name="spec_law_org_license">التنظيمات السياسية والإدارية (ليسانس)</string>
+    <string name="spec_law_admin_master">الإدارة المحلية (ماستر)</string>
+    <string name="spec_law_coop_master">التعاون الدولي (ماستر)</string>
+
+    <string name="spec_econ_entrep_license">المقاولاتية (ليسانس)</string>
+    <string name="spec_econ_mgmt_license">التسيير (ليسانس)</string>
+    <string name="spec_econ_fin_mgmt_license">التسيير المالي (ليسانس)</string>
+    <string name="spec_econ_mgmt_master">التسيير (ماستر)</string>
+    <string name="spec_econ_pub_mgmt_master">التسيير العمومي (ماستر)</string>
+    <string name="spec_econ_fin_mgmt_master">التسيير المالي (ماستر)</string>
+    <string name="spec_econ_mark_license">التسويق (ليسانس)</string>
+    <string name="spec_econ_mark_serv_license">تسويق الخدمات (ليسانس)</string>
+    <string name="spec_econ_trade_license">التجارة الدولية واللوجيستيك (ليسانس)</string>
+    <string name="spec_econ_fin_trade_master">المالية والتجارة الدولية (ماستر)</string>
+    <string name="spec_econ_mark_serv_master">تسويق الخدمات (ماستر)</string>
+    <string name="spec_econ_hotel_master">التسويق الفندقي والسياحي (ماستر)</string>
+    <string name="spec_econ_quant_license">الاقتصاد الكمي (ليسانس)</string>
+    <string name="spec_econ_bank_license">الاقتصاد النقدي والبنكي (ليسانس)</string>
+    <string name="spec_econ_biz_license">اقتصاد وتسيير المؤسسات (ليسانس)</string>
+    <string name="spec_econ_insur_master">اقتصاد التأمين (ماستر)</string>
+    <string name="spec_econ_quant_master">الاقتصاد الكمي (ماستر)</string>
+    <string name="spec_econ_inter_master">الاقتصاد الدولي (ماستر)</string>
+    <string name="spec_econ_biz_master">اقتصاد وتسيير المؤسسات (ماستر)</string>
+    <string name="spec_econ_acc_fin_license">المحاسبة والمالية (ليسانس)</string>
+    <string name="spec_econ_acc_tax_license">المحاسبة والجباية (ليسانس)</string>
+    <string name="spec_econ_bank_insur_license">مالية البنوك والتأمينات (ليسانس)</string>
+    <string name="spec_econ_acc_audit_master">محاسبة وتدقيق (ماستر)</string>
+    <string name="spec_econ_acc_tax_master">محاسبة وجباية معمقة (ماستر)</string>
+    <string name="spec_econ_fin_insur_master">مالية وتأمين (ماستر)</string>
+    <string name="spec_econ_fin_bank_master">مالية وبنوك (ماستر)</string>
+
+    <string name="spec_lang_arabic_license">الأدب العربي (ليسانس)</string>
+    <string name="spec_lang_ling_license">اللسانيات العامة (ليسانس)</string>
+    <string name="spec_lang_arabic_master">الأدب العربي (ماستر)</string>
+    <string name="spec_lang_ling_master">اللسانيات العامة (ماستر)</string>
+    <string name="spec_lang_english_license">اللغة الإنجليزية (ليسانس)</string>
+    <string name="spec_lang_english_master">اللغة الإنجليزية (ماستر)</string>
+    <string name="spec_lang_french_license">اللغة الفرنسية (ليسانس)</string>
+    <string name="spec_lang_french_master">اللغة الفرنسية (ماستر)</string>
+
+    <string name="spec_igee_auto_master">الأتمتة (ماستر)</string>
+    <string name="spec_igee_english">الإنجليزية</string>
+    <string name="spec_igee_algebra">الجبر ونظرية الأعداد</string>
+    <string name="spec_igee_trans_en">الترجمة عربي-إنجليزي-عربي</string>
+    <string name="spec_igee_math">الرياضيات</string>
+    <string name="spec_igee_proc_eng">هندسة الطرائق</string>
+    <string name="spec_igee_trans_fr">الترجمة عربي-فرنسي-عربي</string>
+    <string name="spec_igee_org_chem">الكيمياء العضوية التطبيقية</string>
+    <string name="spec_igee_elec_license">الهندسة الكهربائية والإلكترونية (ليسانس)</string>
+    <string name="spec_igee_telecom_master">ماستر في الاتصالات السلكية واللاسلكية (ماستر)</string>
+
+    <string name="spec_ista_mmq_license">القياس والمترولوجيا والجودة (ليسانس)</string>
+    <string name="spec_ista_telecom_master">اتصالات سلكية ولاسلكية (ماستر)</string>
+    <string name="spec_ista_elec_master">هندسة كهربائية (ماستر)</string>
+
+    <string name="no_spec_found">لم يتم العثور على تخصص!!</string>
+    <string name="specialities_text">التخصصات</string>
+</resources>

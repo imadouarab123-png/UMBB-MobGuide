@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".settingPage">
+    android:background="#F4F7FF"
+    android:layoutDirection="ltr"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="setting page" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp">
 
-</FrameLayout>
+        <TextView
+            android:textColor="@color/black"
+            android:text="@string/settings"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+
+        <TextView
+            android:textColor="@color/black"
+            android:text="@string/language"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"/>
+
+
+        <RadioGroup
+
+            android:id="@+id/radioGroupLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:textColor="@color/black"
+                android:id="@+id/radioEnglish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/english"
+                android:checked="true"/>
+
+            <RadioButton
+                android:textColor="@color/black"
+                android:id="@+id/radioArabic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="العربية"/>
+
+        </RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

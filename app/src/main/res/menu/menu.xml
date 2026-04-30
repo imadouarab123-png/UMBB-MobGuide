@@ -8,13 +8,19 @@
 
          android:id="@+id/settings"
          android:icon="@drawable/settings"
-         android:title="settings"
+         android:title="@string/setting_menu"
          android:checkable="true"
          />
+<!--     <item-->
+<!--         android:id="@+id/aboutUs"-->
+<!--         android:icon="@drawable/info"-->
+<!--         android:title="@string/aboutUs_menu"-->
+<!--         android:checkable="true"-->
+<!--         />-->
      <item
-         android:id="@+id/aboutUs"
-         android:icon="@drawable/info"
-         android:title="about us"
+         android:id="@+id/exitApp"
+         android:icon="@drawable/exit"
+         android:title="@string/exit_App"
          android:checkable="true"
          />
 

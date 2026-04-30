@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_main4"
+    android:layoutDirection="ltr"
     >
     <!-- Here you put the rest of your current view-->
 
@@ -66,7 +67,7 @@
         android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contact"
+        android:text="@string/contact_faculty"
         android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginTop="12dp"
@@ -102,7 +103,7 @@
                 android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Call Faculty"
+                android:text="@string/call_faculty"
                 android:textSize="16sp"/>
         </LinearLayout>
 
@@ -136,7 +137,7 @@
                 android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Send Email"
+                android:text="@string/email_faculty"
                 android:textSize="16sp"/>
         </LinearLayout>
 
@@ -170,7 +171,7 @@
                 android:textColor="@color/white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Find Location"
+                android:text="@string/location_faculty"
                 android:textSize="16sp"/>
         </LinearLayout>
 

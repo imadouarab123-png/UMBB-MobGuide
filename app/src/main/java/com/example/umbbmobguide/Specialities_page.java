@@ -19,6 +19,7 @@ public class Specialities_page extends AppCompatActivity {
 
         // getting department name from intent
         String departmentName = getIntent().getStringExtra("name");
+        if (departmentName == null) departmentName = "";
 
         TextView txtDepartment = findViewById(R.id.txtDepartment);
         txtDepartment.setText(departmentName);
@@ -28,282 +29,253 @@ public class Specialities_page extends AppCompatActivity {
 
 
         //conditions for every department by its name
-        if (departmentName.contains("Computer Science")) {
+        if (departmentName.equals(getString(R.string.dept_cs))) {
+            list.add(new Speciality(getString(R.string.spec_is_license)));
+            list.add(new Speciality(getString(R.string.spec_web_license)));
+            list.add(new Speciality(getString(R.string.spec_soft_master)));
+            list.add(new Speciality(getString(R.string.spec_ai_master)));
 
-            list.add(new Speciality("information system (License)"));
-            list.add(new Speciality("Web Development and Infographics (License)"));
-            list.add(new Speciality("Software Engineering and Information Processing  (Master)"));
-            list.add(new Speciality("Applied Artificial Intelligence (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_maths))) {
+            list.add(new Speciality(getString(R.string.spec_math_license)));
+            list.add(new Speciality(getString(R.string.spec_math_app_license)));
+            list.add(new Speciality(getString(R.string.spec_data_license)));
+            list.add(new Speciality(getString(R.string.spec_math_ana_master)));
+            list.add(new Speciality(getString(R.string.spec_math_fin_master)));
+            list.add(new Speciality(getString(R.string.spec_stoch_master)));
+            list.add(new Speciality(getString(R.string.spec_opt_master)));
 
-        } else if (departmentName.contains("Mathematics")) {
+        } else if (departmentName.equals(getString(R.string.dept_physics))) {
+            list.add(new Speciality(getString(R.string.spec_phys_mat_license)));
+            list.add(new Speciality(getString(R.string.spec_phys_rad_license)));
+            list.add(new Speciality(getString(R.string.spec_phys_en_license)));
+            list.add(new Speciality(getString(R.string.spec_phys_fun_license)));
+            list.add(new Speciality(getString(R.string.spec_phys_mat_master)));
+            list.add(new Speciality(getString(R.string.spec_phys_en_ren_master)));
+            list.add(new Speciality(getString(R.string.spec_phys_med_master)));
+            list.add(new Speciality(getString(R.string.spec_phys_rad_master)));
 
-            list.add(new Speciality("Mathematics (License)"));
-            list.add(new Speciality("Applied Mathematics (License)"));
-            list.add(new Speciality("Data Science (License)"));
-            list.add(new Speciality("Mathematical Analysis (Master)"));
-            list.add(new Speciality("Financial Mathematics (Master)"));
-            list.add(new Speciality("Stochastic Modeling and Statistics (Master)"));
-            list.add(new Speciality("Optimization and Strategic Management (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_chemistry))) {
+            list.add(new Speciality(getString(R.string.spec_chem_mat_license)));
+            list.add(new Speciality(getString(R.string.spec_chem_org_license)));
+            list.add(new Speciality(getString(R.string.spec_chem_ana_license)));
+            list.add(new Speciality(getString(R.string.spec_chem_mat_master)));
+            list.add(new Speciality(getString(R.string.spec_chem_pharm_master)));
+            list.add(new Speciality(getString(R.string.spec_chem_env_master)));
+            list.add(new Speciality(getString(R.string.spec_chem_ana_master)));
+            list.add(new Speciality(getString(R.string.spec_chem_org_master)));
 
+        } else if (departmentName.equals(getString(R.string.dept_biology))) {
+            list.add(new Speciality(getString(R.string.spec_bio_health_license)));
+            list.add(new Speciality(getString(R.string.spec_bio_micro_license)));
+            list.add(new Speciality(getString(R.string.spec_bio_plant_license)));
+            list.add(new Speciality(getString(R.string.spec_bio_food_license)));
+            list.add(new Speciality(getString(R.string.spec_bio_chem_license)));
+            list.add(new Speciality(getString(R.string.spec_bio_org_license)));
+            list.add(new Speciality(getString(R.string.spec_bio_anim_license)));
+            list.add(new Speciality(getString(R.string.spec_bio_mol_license)));
+            list.add(new Speciality(getString(R.string.spec_bio_eco_license)));
+            list.add(new Speciality(getString(R.string.spec_bio_mol_path_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_micro_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_plant_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_nutri_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_app_chem_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_pop_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_genet_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_cell_phys_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_mol_cell_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_biodiv_master)));
+            list.add(new Speciality(getString(R.string.spec_bio_micro_eco_master)));
 
-        } else if (departmentName.contains("Department of Physics")) {
-            list.add(new Speciality("Materials Physics (License)"));
-            list.add(new Speciality("Radiation Physics (License)"));
-            list.add(new Speciality("Energetic Physics (License)"));
-            list.add(new Speciality("Fundamental Physics (License)"));
-            list.add(new Speciality("Materials Physics (Master)"));
-            list.add(new Speciality("Energetic Physics and Renewable Energies (Master)"));
-            list.add(new Speciality("Medical Physics (Master)"));
-            list.add(new Speciality("Radiation Physics (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_agronomy))) {
+            list.add(new Speciality(getString(R.string.spec_agri_prot_license)));
+            list.add(new Speciality(getString(R.string.spec_agri_prod_license)));
+            list.add(new Speciality(getString(R.string.spec_agri_anim_license)));
+            list.add(new Speciality(getString(R.string.spec_agri_phytopharm_master)));
+            list.add(new Speciality(getString(R.string.spec_agri_anim_nutri_master)));
+            list.add(new Speciality(getString(R.string.spec_agri_crop_master)));
+            list.add(new Speciality(getString(R.string.spec_agri_phytopath_master)));
 
+        } else if (departmentName.equals(getString(R.string.dept_sports))) {
+            list.add(new Speciality(getString(R.string.spec_staps_edu_license)));
+            list.add(new Speciality(getString(R.string.spec_staps_train_license)));
+            list.add(new Speciality(getString(R.string.spec_staps_phys_master)));
+            list.add(new Speciality(getString(R.string.spec_staps_elite_master)));
 
-        } else if (departmentName.contains("Department of Chemistry")) {
-            list.add(new Speciality("Materials Chemistry (License)"));
-            list.add(new Speciality("Organic Chemistry (License)"));
-            list.add(new Speciality("Analytical Chemistry (License)"));
-            list.add(new Speciality("Materials Chemistry (Master)"));
-            list.add(new Speciality("Pharmaceutical Chemistry (Master)"));
-            list.add(new Speciality("Environmental Chemistry (Master)"));
-            list.add(new Speciality("Analytical Chemistry (Master)"));
-            list.add(new Speciality("Organic Chemistry (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_industrial_process))) {
+            list.add(new Speciality(getString(R.string.spec_eng_process_license)));
+            list.add(new Speciality(getString(R.string.spec_eng_food_master)));
+            list.add(new Speciality(getString(R.string.spec_eng_chem_master)));
+            list.add(new Speciality(getString(R.string.spec_eng_poly_master)));
+            list.add(new Speciality(getString(R.string.spec_eng_mat_master)));
 
+        } else if (departmentName.equals(getString(R.string.dept_food_tech))) {
+            list.add(new Speciality(getString(R.string.spec_eng_process_license)));
+            list.add(new Speciality(getString(R.string.spec_eng_food_master)));
 
-        } else if (departmentName.contains("Department of Biology")) {
-            list.add(new Speciality("Biotechnology and Health (License)"));
-            list.add(new Speciality("Microbial Biotechnology (License)"));
-            list.add(new Speciality("Plant Biotechnology and Plant Breeding (License)"));
-            list.add(new Speciality("Food Technology and Quality Control (License)"));
-            list.add(new Speciality("Biochemistry (License)"));
-            list.add(new Speciality("Organism Biology (License)"));
-            list.add(new Speciality("Animal Biology and Physiology (License)"));
-            list.add(new Speciality("Molecular Biology (License)"));
-            list.add(new Speciality(" Ecology and Environment (License)"));
+        } else if (departmentName.equals(getString(R.string.dept_env_eng))) {
+            list.add(new Speciality(getString(R.string.spec_env_clim_license)));
+            list.add(new Speciality(getString(R.string.spec_env_health_license)));
+            list.add(new Speciality(getString(R.string.spec_env_eng_master)));
+            list.add(new Speciality(getString(R.string.spec_env_proc_master)));
+            list.add(new Speciality(getString(R.string.spec_env_water_master)));
+            list.add(new Speciality(getString(R.string.spec_env_ren_mech_master)));
 
-            list.add(new Speciality("Biotechnology and Molecular Pathology (Master)"));
-            list.add(new Speciality("Microbial Biotechnology (Master)"));
-            list.add(new Speciality("Plant Biotechnology (Master)"));
-            list.add(new Speciality("Nutrition and Food Science (Master)"));
-            list.add(new Speciality("Applied Biochemistry (Master)"));
-            list.add(new Speciality("Population and Organism Biology (Master)"));
-            list.add(new Speciality("Genetics (Master)"));
-            list.add(new Speciality("Cellular Physiology and Pathophysiology (Master)"));
-            list.add(new Speciality("Molecular and Cellular Biology (Master)"));
-            list.add(new Speciality("Biodiversity and Environment (Master)"));
-            list.add(new Speciality("Microbial Ecology (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_mech_eng))) {
+            list.add(new Speciality(getString(R.string.spec_mech_const_license)));
+            list.add(new Speciality(getString(R.string.spec_mech_en_license)));
+            list.add(new Speciality(getString(R.string.spec_mech_mat_license)));
+            list.add(new Speciality(getString(R.string.spec_mech_const_master)));
+            list.add(new Speciality(getString(R.string.spec_mech_en_master)));
+            list.add(new Speciality(getString(R.string.spec_mech_manuf_master)));
+            list.add(new Speciality(getString(R.string.spec_mech_mat_master)));
+            list.add(new Speciality(getString(R.string.spec_mech_turb_master)));
+            list.add(new Speciality(getString(R.string.spec_mech_boiler_master)));
+            list.add(new Speciality(getString(R.string.spec_mech_metallic_master)));
 
+        } else if (departmentName.equals(getString(R.string.dept_energetics))) {
+            list.add(new Speciality(getString(R.string.spec_mech_en_license)));
+            list.add(new Speciality(getString(R.string.spec_env_clim_license)));
+            list.add(new Speciality(getString(R.string.spec_mech_en_master)));
+            list.add(new Speciality(getString(R.string.spec_mech_turb_master)));
+            list.add(new Speciality(getString(R.string.spec_env_ren_mech_master)));
 
+        } else if (departmentName.equals(getString(R.string.dept_maintenance))) {
+            list.add(new Speciality(getString(R.string.spec_main_ind_license)));
+            list.add(new Speciality(getString(R.string.spec_main_elec_license)));
+            list.add(new Speciality(getString(R.string.spec_main_ind_master)));
+            list.add(new Speciality(getString(R.string.spec_main_elec_master)));
+            list.add(new Speciality(getString(R.string.spec_main_mecha_master)));
 
-        } else if (departmentName.contains("Department of Agronomic Sciences")){
-            list.add(new Speciality("Plant Protection (License)"));
-            list.add(new Speciality("Crop Production (License)"));
-            list.add(new Speciality("Animal Production (License)"));
-            list.add(new Speciality("Phytopharmacology and Plant Protection (Master)"));
-            list.add(new Speciality("Animal Production and Nutrition (Master)"));
-            list.add(new Speciality("Crop Production (Master)"));
-            list.add(new Speciality("Phytopathology (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_materials))) {
+            list.add(new Speciality(getString(R.string.spec_mech_mat_license)));
+            list.add(new Speciality(getString(R.string.spec_mech_mat_master)));
+            list.add(new Speciality(getString(R.string.spec_eng_mat_master)));
 
+        } else if (departmentName.equals(getString(R.string.dept_civil_eng))) {
+            list.add(new Speciality(getString(R.string.spec_civil_license)));
+            list.add(new Speciality(getString(R.string.spec_civil_geo_master)));
+            list.add(new Speciality(getString(R.string.spec_civil_mat_master)));
+            list.add(new Speciality(getString(R.string.spec_civil_struct_master)));
+            list.add(new Speciality(getString(R.string.spec_civil_struct_const_master)));
 
-    }else if (departmentName.contains("Department of STAPS")){
-            list.add(new Speciality("Education and Motor Skills (License)"));
-            list.add(new Speciality("Competitive Sports Training (License)"));
-            list.add(new Speciality("School Physical and Sporting Activity (Master)"));
-            list.add(new Speciality("Elite Sports Training (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_earthquake))) {
+            list.add(new Speciality(getString(R.string.spec_hydro_seismic_license)));
+            list.add(new Speciality(getString(R.string.spec_hydro_petro_master)));
 
-        }else if (departmentName.contains("Departement of Industrial Process Engineering")) {
-            list.add(new Speciality("Process Engineering (License)"));
-            list.add(new Speciality("Food Engineering (Master)"));
-            list.add(new Speciality("Chemical Engineering (Master)"));
-            list.add(new Speciality("Polymer Engineering (Master)"));
-            list.add(new Speciality("Materials Process Engineering (Master)"));
-        }
-        else if (departmentName.contains("Food Technology")) {
-            list.add(new Speciality("Process Engineering (License)"));
-            list.add(new Speciality("Food Engineering (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_mining))) {
+            list.add(new Speciality(getString(R.string.spec_hydro_mineral_license)));
+            list.add(new Speciality(getString(R.string.spec_hydro_geol_master)));
 
-        }
-        else if (departmentName.contains("Environmental Engineering")) {
-            list.add(new Speciality("Climate Engineering (License)"));
-            list.add(new Speciality("Industrial Health and Safety (License)"));
-            list.add(new Speciality("Environmental Engineering (Master)"));
-            list.add(new Speciality("Environmental Process Engineering (Master)"));
-            list.add(new Speciality("Water Engineering and Management (Master)"));
-            list.add(new Speciality("Renewable Energies in Mechanics (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_transport))) {
+            list.add(new Speciality(getString(R.string.spec_hydro_trans_license)));
+            list.add(new Speciality(getString(R.string.spec_hydro_mech_petro_license)));
+            list.add(new Speciality(getString(R.string.spec_hydro_mech_field_license)));
+            list.add(new Speciality(getString(R.string.spec_hydro_trans_dist_master)));
+            list.add(new Speciality(getString(R.string.spec_hydro_mech_petro_master)));
+            list.add(new Speciality(getString(R.string.spec_hydro_mech_field_master)));
 
-        }
-        else if (departmentName.contains("Mechanical Engineering")) {
-            list.add(new Speciality("Mechanical Construction (License)"));
-            list.add(new Speciality("Energetics (License)"));
-            list.add(new Speciality("Materials Engineering (License)"));
-            list.add(new Speciality("Mechanical Construction (Master)"));
-            list.add(new Speciality("Energetics (Master)"));
-            list.add(new Speciality("Mechanical Manufacturing and Productivity (Master)"));
-            list.add(new Speciality("Materials Engineering (Master)"));
-            list.add(new Speciality("Energetic Installations and Turbomachinery (Master)"));
-            list.add(new Speciality("Boiler and Piping Works (Master)"));
-            list.add(new Speciality("Metallic and Boiler Works (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_chem_pharm))) {
+            list.add(new Speciality(getString(R.string.spec_hydro_treat_license)));
+            list.add(new Speciality(getString(R.string.spec_hydro_refining_master)));
+            list.add(new Speciality(getString(R.string.spec_hydro_petro_tech_master)));
+            list.add(new Speciality(getString(R.string.spec_hydro_instr_master)));
 
-        } else if (departmentName.contains("Energetics")) {
-            list.add(new Speciality("Energetics (License)"));
-            list.add(new Speciality("Climate Engineering (License)"));
-            list.add(new Speciality("Energetics (Master)"));
-            list.add(new Speciality("Energetic Installations and Turbomachinery (Master)"));
-            list.add(new Speciality("Renewable Energies in Mechanics (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_automation))) {
+            list.add(new Speciality(getString(R.string.spec_hydro_auto_license)));
+            list.add(new Speciality(getString(R.string.spec_hydro_elec_license)));
+            list.add(new Speciality(getString(R.string.spec_hydro_auto_master)));
+            list.add(new Speciality(getString(R.string.spec_hydro_elec_master)));
 
-        }
-        else if (departmentName.contains("Industrial Maintenance")) {
-            list.add(new Speciality("Industrial Maintenance (License)"));
-            list.add(new Speciality("Electromechanics (License)"));
-            list.add(new Speciality("Industrial Maintenance (Master)"));
-            list.add(new Speciality("Electromechanics (Master)"));
-            list.add(new Speciality("Mechatronics (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_econ_marketing))) {
+            list.add(new Speciality(getString(R.string.spec_hydro_econ_license)));
+            list.add(new Speciality(getString(R.string.spec_hydro_econ_master)));
 
-        } else if (departmentName.contains("Materials Science and Engineering")) {
-            list.add(new Speciality("Materials Engineering (License)"));
-            list.add(new Speciality("Materials Engineering (Master)"));
-            list.add(new Speciality("Materials Process Engineering (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_public_law))) {
+            list.add(new Speciality(getString(R.string.spec_law_pub_license)));
+            list.add(new Speciality(getString(R.string.spec_law_pub_master)));
 
-        }else if (departmentName.contains("Civil Engineering")) {
-            list.add(new Speciality("Civil Engineering (License)"));
-            list.add(new Speciality("Geotechnics (Master)"));
-            list.add(new Speciality("Civil Engineering Materials (Master)"));
-            list.add(new Speciality("Structures (Master)"));
-            list.add(new Speciality("Structures and Construction (Master)"));
-        }
-        else if (departmentName.contains("Departement of Earthquake Engineering, Geophysics, and Random Phenomena")) {
-            list.add(new Speciality("Seismic Geophysics (License)"));
-            list.add(new Speciality("Petroleum Geophysics (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_private_law))) {
+            list.add(new Speciality(getString(R.string.spec_law_priv_license)));
+            list.add(new Speciality(getString(R.string.spec_law_priv_master)));
+            list.add(new Speciality(getString(R.string.spec_law_biz_master)));
 
-        }
-        else if (departmentName.contains("Departement of Mining and Petroleum Deposits")) {
-            list.add(new Speciality("Mineral and Energy Resources (License)"));
-            list.add(new Speciality("Petroleum Geology (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_political_science))) {
+            list.add(new Speciality(getString(R.string.spec_law_ir_license)));
+            list.add(new Speciality(getString(R.string.spec_law_org_license)));
+            list.add(new Speciality(getString(R.string.spec_law_admin_master)));
+            list.add(new Speciality(getString(R.string.spec_law_coop_master)));
 
-        }
-        else if (departmentName.contains("Departement of Hydrocarbon Transportation and Equipment")) {
-            list.add(new Speciality("Transport of Hydrocarbons (License)"));
-            list.add(new Speciality("Mechanics of Petrochemical Units (License)"));
-            list.add(new Speciality("Mechanics of Oil Field Sites (License)"));
-            list.add(new Speciality("Transport and Distribution of Hydrocarbons (Master)"));
-            list.add(new Speciality("Mechanics of Petrochemical Units (Master)"));
-            list.add(new Speciality("Mechanics of Oil Field Sites (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_management))) {
+            list.add(new Speciality(getString(R.string.spec_econ_entrep_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_mgmt_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_fin_mgmt_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_mgmt_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_pub_mgmt_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_fin_mgmt_master)));
 
-        }
-        else if (departmentName.contains("Departement of Chemical and Pharmaceutical Process Engineering")) {
-            list.add(new Speciality("Technologies and Treatment of Oil and Gas (License)"));
-            list.add(new Speciality("Refining (Master)"));
-            list.add(new Speciality("Petrochemistry Technology (Master)"));
-            list.add(new Speciality("Instrumentation in Petrochemical Industry (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_commercial))) {
+            list.add(new Speciality(getString(R.string.spec_econ_mark_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_mark_serv_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_trade_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_fin_trade_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_mark_serv_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_hotel_master)));
 
-        }
-        else if (departmentName.contains("Departement of Process Automation and Electrification")) {
-            list.add(new Speciality("Automatic Control (License)"));
-            list.add(new Speciality("Industrial Electricity (License)"));
-            list.add(new Speciality("Automatic Control (Master)"));
-            list.add(new Speciality("Industrial Electricity (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_econ_sci))) {
+            list.add(new Speciality(getString(R.string.spec_econ_quant_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_bank_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_biz_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_insur_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_quant_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_inter_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_biz_master)));
 
-        }
-        else if (departmentName.contains("Departement of Hydrocarbon Economics and Marketing")) {
-            list.add(new Speciality("Petroleum Economy (License)"));
-            list.add(new Speciality("Hydrocarbon Economics (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_finance))) {
+            list.add(new Speciality(getString(R.string.spec_econ_acc_fin_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_acc_tax_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_bank_insur_license)));
+            list.add(new Speciality(getString(R.string.spec_econ_acc_audit_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_acc_tax_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_fin_insur_master)));
+            list.add(new Speciality(getString(R.string.spec_econ_fin_bank_master)));
 
-        }
-        else if (departmentName.contains("Departement of Public Law")) {
-            list.add(new Speciality("Public Law (License)"));
-            list.add(new Speciality("Public Law (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_arabic_lit))) {
+            list.add(new Speciality(getString(R.string.spec_lang_arabic_license)));
+            list.add(new Speciality(getString(R.string.spec_lang_ling_license)));
+            list.add(new Speciality(getString(R.string.spec_lang_arabic_master)));
+            list.add(new Speciality(getString(R.string.spec_lang_ling_master)));
 
-        }
-        else if (departmentName.contains("Departement of Private Law")) {
-            list.add(new Speciality("Private Law (License)"));
-            list.add(new Speciality("Private Law (Master)"));
-            list.add(new Speciality("Business Law (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_english))) {
+            list.add(new Speciality(getString(R.string.spec_lang_english_license)));
+            list.add(new Speciality(getString(R.string.spec_lang_english_master)));
 
-        }
-        else if (departmentName.contains("Departement of Political Science")) {
-            list.add(new Speciality("International Relations (License)"));
-            list.add(new Speciality("Political and Administrative Organizations (License)"));
-            list.add(new Speciality("Local Administration (Master)"));
-            list.add(new Speciality("International Cooperation (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_french))) {
+            list.add(new Speciality(getString(R.string.spec_lang_french_license)));
+            list.add(new Speciality(getString(R.string.spec_lang_french_master)));
 
-        }
-        else if (departmentName.contains("Department of Management Sciences")) {
-            list.add(new Speciality("Entrepreneurship (License)"));
-            list.add(new Speciality("Management (License)"));
-            list.add(new Speciality("Financial Management (License)"));
-            list.add(new Speciality("Management (Master)"));
-            list.add(new Speciality("Public Management (Master)"));
-            list.add(new Speciality("Financial Management (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_auto_elec))) {
+            list.add(new Speciality(getString(R.string.spec_igee_auto_master)));
 
-        }
-        else if (departmentName.contains("Department of Commercial Sciences")) {
-            list.add(new Speciality("Marketing (License)"));
-            list.add(new Speciality("Marketing of Services (License)"));
-            list.add(new Speciality("International Trade and Logistics (License)"));
-            list.add(new Speciality("Finance and International Trade (Master)"));
-            list.add(new Speciality("Marketing of Services (Master)"));
-            list.add(new Speciality("Hotel and Tourism Marketing (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_basic_edu))) {
+            list.add(new Speciality(getString(R.string.spec_igee_english)));
+            list.add(new Speciality(getString(R.string.spec_igee_algebra)));
+            list.add(new Speciality(getString(R.string.spec_igee_trans_en)));
+            list.add(new Speciality(getString(R.string.spec_igee_math)));
+            list.add(new Speciality(getString(R.string.spec_igee_proc_eng)));
+            list.add(new Speciality(getString(R.string.spec_igee_trans_fr)));
+            list.add(new Speciality(getString(R.string.spec_igee_org_chem)));
 
-        }
-        else if (departmentName.contains("Department of Economic Sciences")) {
-            list.add(new Speciality("Quantitative Economics (License)"));
-            list.add(new Speciality("Monetary and Banking Economics (License)"));
-            list.add(new Speciality("Economics and Business Management (License)"));
-            list.add(new Speciality("Insurance Economics (Master)"));
-            list.add(new Speciality("Quantitative Economics (Master)"));
-            list.add(new Speciality("International Economics (Master)"));
-            list.add(new Speciality("Economics and Business Management (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_electronics))) {
+            list.add(new Speciality(getString(R.string.spec_igee_elec_license)));
+            list.add(new Speciality(getString(R.string.spec_igee_telecom_master)));
 
-        }
-        else if (departmentName.contains("Department of Finance and Accounting")) {
-            list.add(new Speciality("Accounting and Finance (License)"));
-            list.add(new Speciality("Accounting and Taxation (License)"));
-            list.add(new Speciality("Bank and Insurance Finance (License)"));
-            list.add(new Speciality("Accounting and Audit (Master)"));
-            list.add(new Speciality("Accounting and Advanced Taxation (Master)"));
-            list.add(new Speciality("Finance and Insurance (Master)"));
-            list.add(new Speciality("Finance and Banking (Master)"));
+        } else if (departmentName.equals(getString(R.string.dept_mmq))) {
+            list.add(new Speciality(getString(R.string.spec_ista_mmq_license)));
+            list.add(new Speciality(getString(R.string.spec_ista_telecom_master)));
+            list.add(new Speciality(getString(R.string.spec_ista_elec_master)));
 
-        }
-        else if (departmentName.contains("Department of Arabic Literature")) {
-            list.add(new Speciality("Arabic Literature (License)"));
-            list.add(new Speciality("General Linguistics (License)"));
-            list.add(new Speciality("Arabic Literature (Master)"));
-            list.add(new Speciality("General Linguistics (Master)"));
-
-        }
-        else if (departmentName.contains("Department of English language")) {
-            list.add(new Speciality("English Language (License)"));
-            list.add(new Speciality("English Language (Master)"));
-
-        }
-        else if (departmentName.contains("Department of French language")) {
-            list.add(new Speciality("French Language (License)"));
-            list.add(new Speciality("French Language (Master)"));
-
-        }
-        else if (departmentName.contains("Department of Automation and Electrical Engineering")){
-            list.add(new Speciality("Automation (Master)"));
-        }
-        else if (departmentName.contains("Departement of Basic Education")){
-            list.add(new Speciality("English"));
-            list.add(new Speciality("Algebra and Number Theory"));
-            list.add(new Speciality("Arabic-English-Arabic Translation"));
-            list.add(new Speciality("Mathematics"));
-            list.add(new Speciality("Process Engineering"));
-            list.add(new Speciality("Arabic-French-Arabic Translation"));
-            list.add(new Speciality("Applied Organic Chemistry"));
-        }
-        else if (departmentName.contains("Departement of Electronics")){
-            list.add(new Speciality("Electrical and Electronic Engineering (License"));
-            list.add(new Speciality("Master in Telecommunications (Master)"));
-        }
-        else if (departmentName.contains("Department of MMQ(Mesures, Metrology & quality)")){
-            list.add(new Speciality("Measurements, Metrology and Quality (License)"));
-            list.add(new Speciality("Telecommunications (Master)"));
-            list.add(new Speciality("Electrical Engineering (Master)"));
-        }
-
-        else{
-            list.add(new Speciality("no speciality found!!"));
+        } else {
+            list.add(new Speciality(getString(R.string.no_spec_found)));
         }
 
 

@@ -17,7 +17,7 @@
             android:theme="@style/Theme.UMBBMobGuide" />
         <activity
             android:name=".FacultiesActivity"
-            android:windowSoftInputMode="adjustResize"
+            android:windowSoftInputMode="adjustPan"
             android:exported="false" />
         <activity android:name=".settingPage" />
         <activity android:name=".AboutUS" />

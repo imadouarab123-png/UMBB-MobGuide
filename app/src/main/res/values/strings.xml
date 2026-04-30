@@ -1,60 +1,297 @@
 <resources>
     <string name="app_name">UMBBMobGuide</string>
+<!-- the menu bar-->
+    <string name="exit_App" >Exit</string>
+
+    <string name="setting_menu">Settings</string>
+    <string name="aboutUs_menu">About us</string>
+    <!-- the settings page text  -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+
+    <!--  the main page string text -->
+    <string name="explore_faculties">Explore Faculties</string>
+    <string name="explore_faculties_desc">Explore faculties and their \ndepartments</string>
+    <string name="about_university">About University</string>
+    <string name="about_university_desc">Learn more about the university \nof Boumerdes</string>
+    <string name="your_guide">Your guide to the university of Boumerdes</string>
+
+    <!-- the about page string-->
+    <string name="smart_companion">Smart university companion</string>
+    <string name="university_overview">University Overview</string>
+    <string name="students">Students</string>
+    <string name="faculties">Faculties</string>
+    <string name="national_rank">National Rank</string>
+    <string name="contact_university">Contact University</string>
+    <string name="call_university">Call University</string>
+    <string name="send_email">Send Email</string>
+    <string name="world_rank">World Rank</string>
+    <!-- the faculty page text-->
+    <string name="searchHint">Search here for a faculty</string>
+
+    <!-- Faculties -->
+    <string name="faculty_sciences">Faculty of Sciences</string>
+    <string name="faculty_technology">Faculty of Technology</string>
+    <string name="faculty_hydrocarbons">Faculty of Hydrocarbons and Chemistry</string>
+    <string name="faculty_law">Faculty of Law and Political Science</string>
+    <string name="faculty_letters">Faculty of Letters and Languages</string>
+    <string name="faculty_economics">Faculty of Economic Sciences, Commercial Sciences, and Management Sciences</string>
+    <string name="institute_electrical">Institute of Electrical and Electronic Engineering</string>
+    <string name="institute_applied_tech">Institute of Applied Sciences and Technology</string>
+
+    <!-- Faculty Descriptions -->
+    <string name="fs_desc">The Faculty of Sciences at M\'Hamed Bougara University of Boumerdes is recognized for scientific education and research. It provides comprehensive training in disciplines, equipping students with the knowledge and skills to address real-world challenges through scientific approaches.</string>
+    <string name="ft_desc">The Faculty of Technology at M\'Hamed Bougara University of Boumerdes is recognized for technical education and applied research. It provides comprehensive training in disciplines such as Mechanical Engineering, equipping students with the knowledge and skills to address real-world challenges through technological innovation.</string>
+    <string name="fhc_desc">The Faculty of Hydrocarbons and Chemistry at M\'Hamed Bougara University of Boumerdes has continuously adapted to meet the challenges of rapid technological developments in the field of Hydrocarbons. The goal is to train graduates with the knowledge and skills needed for research, development, production, or teaching.</string>
+
+    <string name="law_desc">The Faculty of Law and Political Science at M\'Hamed Bougara University of Boumerdes provides quality education in legal studies and political sciences. The faculty is committed to training students in legal reasoning, political analysis, and civic responsibility.</string>
+
+    <string name="fll_desc">The Faculty of Letters and Languages at M\'Hamed Bougara University of Boumerdes provides quality education in literature, linguistics, and foreign languages. The faculty is committed to developing students\' language proficiency, analytical skills, and cultural awareness.</string>
+
+    <string name="fse_desc">The Faculty of Economic Sciences, Commercial Sciences, and Management Sciences at M\'Hamed Bougara University of Boumerdes provides quality education in economics, business, and management. The faculty is committed to developing students\' analytical, managerial, and decision-making skills.</string>
+    <string name="igee_desc">The Institute of Electrical and Electronic Engineering at M\'Hamed Bougara University of Boumerdes provides quality education in electrical systems, electronic circuits, and automation. The institute is committed to developing students\' technical, analytical, and problem-solving skills.</string>
+    <string name="ista_desc">The Institute of Applied Sciences and Technology (ISTA) at M\'Hamed Bougara University of Boumerdes was established in response to national concerns regarding graduate employability and integration into the socio-economic sector.</string>
+
+    <string name="contact_faculty">Contact</string>
+    <string name="call_faculty">Call Faculty</string>
+    <string name="email_faculty">Send Email</string>
+    <string name="location_faculty">Find Location</string>
+    <!-- Departments -->
+    <string name="dept_maths">Department of Mathematics</string>
+    <string name="dept_cs">Department of Computer Science</string>
+    <string name="dept_physics">Department of Physics</string>
+    <string name="dept_chemistry">Department of Chemistry</string>
+    <string name="dept_biology">Department of Biology</string>
+    <string name="dept_agronomy">Department of Agronomic Sciences</string>
+    <string name="dept_sports">Department of STAPS (Sciences and Techniques of Physical and Sports)</string>
+
+    <string name="dept_industrial_process">Department of Industrial Process Engineering</string>
+    <string name="dept_food_tech">Department of Food Technology</string>
+    <string name="dept_env_eng">Department of Environmental Engineering</string>
+    <string name="dept_mech_eng">Department of Mechanical Engineering</string>
+    <string name="dept_energetics">Department of Energetics</string>
+    <string name="dept_maintenance">Department of Industrial Maintenance</string>
+    <string name="dept_materials">Department of Materials Science and Engineering</string>
+    <string name="dept_civil_eng">Department of Civil Engineering</string>
+
+    <string name="dept_earthquake">Department of Earthquake Engineering, Geophysics, and Random Phenomena</string>
+    <string name="dept_mining">Department of Mining and Petroleum Deposits</string>
+    <string name="dept_transport">Department of Hydrocarbon Transportation and Equipment</string>
+    <string name="dept_chem_pharm">Department of Chemical and Pharmaceutical Process Engineering</string>
+    <string name="dept_automation">Department of Process Automation and Electrification</string>
+    <string name="dept_econ_marketing">Department of Hydrocarbon Economics and Marketing</string>
+
+    <string name="dept_public_law">Department of Public Law</string>
+    <string name="dept_private_law">Department of Private Law</string>
+    <string name="dept_political_science">Department of Political Science</string>
+
+    <string name="dept_arabic_lit">Department of Arabic Literature</string>
+    <string name="dept_french">Department of French language</string>
+    <string name="dept_english">Department of English language</string>
+
+    <string name="dept_management">Department of Management Sciences</string>
+    <string name="dept_commercial">Department of Commercial Sciences</string>
+    <string name="dept_econ_sci">Department of Economic Sciences</string>
+    <string name="dept_finance">Department of Finance and Accounting</string>
+
+    <string name="dept_auto_elec">Department of Automation and Electrical Engineering</string>
+    <string name="dept_basic_edu">Department of Basic Education</string>
+    <string name="dept_electronics">Department of Electronics</string>
+
+    <string name="dept_mmq">Department of MMQ (Mesures, Metrology &amp; Quality)</string>
+
+    <!-- Specialties page text-->
+    <string name="spec_is_license">Information system (License)</string>
+    <string name="spec_web_license">Web Development and Infographics (License)</string>
+    <string name="spec_soft_master">Software Engineering and Information Processing (Master)</string>
+    <string name="spec_ai_master">Applied Artificial Intelligence (Master)</string>
+
+    <string name="spec_math_license">Mathematics (License)</string>
+    <string name="spec_math_app_license">Applied Mathematics (License)</string>
+    <string name="spec_data_license">Data Science (License)</string>
+    <string name="spec_math_ana_master">Mathematical Analysis (Master)</string>
+    <string name="spec_math_fin_master">Financial Mathematics (Master)</string>
+    <string name="spec_stoch_master">Stochastic Modeling and Statistics (Master)</string>
+    <string name="spec_opt_master">Optimization and Strategic Management (Master)</string>
+
+    <string name="spec_phys_mat_license">Materials Physics (License)</string>
+    <string name="spec_phys_rad_license">Radiation Physics (License)</string>
+    <string name="spec_phys_en_license">Energetic Physics (License)</string>
+    <string name="spec_phys_fun_license">Fundamental Physics (License)</string>
+    <string name="spec_phys_mat_master">Materials Physics (Master)</string>
+    <string name="spec_phys_en_ren_master">Energetic Physics and Renewable Energies (Master)</string>
+    <string name="spec_phys_med_master">Medical Physics (Master)</string>
+    <string name="spec_phys_rad_master">Radiation Physics (Master)</string>
+
+    <string name="spec_chem_mat_license">Materials Chemistry (License)</string>
+    <string name="spec_chem_org_license">Organic Chemistry (License)</string>
+    <string name="spec_chem_ana_license">Analytical Chemistry (License)</string>
+    <string name="spec_chem_mat_master">Materials Chemistry (Master)</string>
+    <string name="spec_chem_pharm_master">Pharmaceutical Chemistry (Master)</string>
+    <string name="spec_chem_env_master">Environmental Chemistry (Master)</string>
+    <string name="spec_chem_ana_master">Analytical Chemistry (Master)</string>
+    <string name="spec_chem_org_master">Organic Chemistry (Master)</string>
+
+    <string name="spec_bio_health_license">Biotechnology and Health (License)</string>
+    <string name="spec_bio_micro_license">Microbial Biotechnology (License)</string>
+    <string name="spec_bio_plant_license">Plant Biotechnology and Plant Breeding (License)</string>
+    <string name="spec_bio_food_license">Food Technology and Quality Control (License)</string>
+    <string name="spec_bio_chem_license">Biochemistry (License)</string>
+    <string name="spec_bio_org_license">Organism Biology (License)</string>
+    <string name="spec_bio_anim_license">Animal Biology and Physiology (License)</string>
+    <string name="spec_bio_mol_license">Molecular Biology (License)</string>
+    <string name="spec_bio_eco_license">Ecology and Environment (License)</string>
+    <string name="spec_bio_mol_path_master">Biotechnology and Molecular Pathology (Master)</string>
+    <string name="spec_bio_micro_master">Microbial Biotechnology (Master)</string>
+    <string name="spec_bio_plant_master">Plant Biotechnology (Master)</string>
+    <string name="spec_bio_nutri_master">Nutrition and Food Science (Master)</string>
+    <string name="spec_bio_app_chem_master">Applied Biochemistry (Master)</string>
+    <string name="spec_bio_pop_master">Population and Organism Biology (Master)</string>
+    <string name="spec_bio_genet_master">Genetics (Master)</string>
+    <string name="spec_bio_cell_phys_master">Cellular Physiology and Pathophysiology (Master)</string>
+    <string name="spec_bio_mol_cell_master">Molecular and Cellular Biology (Master)</string>
+    <string name="spec_bio_biodiv_master">Biodiversity and Environment (Master)</string>
+    <string name="spec_bio_micro_eco_master">Microbial Ecology (Master)</string>
+
+    <string name="spec_agri_prot_license">Plant Protection (License)</string>
+    <string name="spec_agri_prod_license">Crop Production (License)</string>
+    <string name="spec_agri_anim_license">Animal Production (License)</string>
+    <string name="spec_agri_phytopharm_master">Phytopharmacology and Plant Protection (Master)</string>
+    <string name="spec_agri_anim_nutri_master">Animal Production and Nutrition (Master)</string>
+    <string name="spec_agri_crop_master">Crop Production (Master)</string>
+    <string name="spec_agri_phytopath_master">Phytopathology (Master)</string>
+
+    <string name="spec_staps_edu_license">Education and Motor Skills (License)</string>
+    <string name="spec_staps_train_license">Competitive Sports Training (License)</string>
+    <string name="spec_staps_phys_master">School Physical and Sporting Activity (Master)</string>
+    <string name="spec_staps_elite_master">Elite Sports Training (Master)</string>
+
+    <string name="spec_eng_process_license">Process Engineering (License)</string>
+    <string name="spec_eng_food_master">Food Engineering (Master)</string>
+    <string name="spec_eng_chem_master">Chemical Engineering (Master)</string>
+    <string name="spec_eng_poly_master">Polymer Engineering (Master)</string>
+    <string name="spec_eng_mat_master">Materials Process Engineering (Master)</string>
+
+    <string name="spec_env_clim_license">Climate Engineering (License)</string>
+    <string name="spec_env_health_license">Industrial Health and Safety (License)</string>
+    <string name="spec_env_eng_master">Environmental Engineering (Master)</string>
+    <string name="spec_env_proc_master">Environmental Process Engineering (Master)</string>
+    <string name="spec_env_water_master">Water Engineering and Management (Master)</string>
+    <string name="spec_env_ren_mech_master">Renewable Energies in Mechanics (Master)</string>
+
+    <string name="spec_mech_const_license">Mechanical Construction (License)</string>
+    <string name="spec_mech_en_license">Energetics (License)</string>
+    <string name="spec_mech_mat_license">Materials Engineering (License)</string>
+    <string name="spec_mech_const_master">Mechanical Construction (Master)</string>
+    <string name="spec_mech_en_master">Energetics (Master)</string>
+    <string name="spec_mech_manuf_master">Mechanical Manufacturing and Productivity (Master)</string>
+    <string name="spec_mech_mat_master">Materials Engineering (Master)</string>
+    <string name="spec_mech_turb_master">Energetic Installations and Turbomachinery (Master)</string>
+    <string name="spec_mech_boiler_master">Boiler and Piping Works (Master)</string>
+    <string name="spec_mech_metallic_master">Metallic and Boiler Works (Master)</string>
+
+    <string name="spec_main_ind_license">Industrial Maintenance (License)</string>
+    <string name="spec_main_elec_license">Electromechanics (License)</string>
+    <string name="spec_main_ind_master">Industrial Maintenance (Master)</string>
+    <string name="spec_main_elec_master">Electromechanics (Master)</string>
+    <string name="spec_main_mecha_master">Mechatronics (Master)</string>
+
+    <string name="spec_civil_license">Civil Engineering (License)</string>
+    <string name="spec_civil_geo_master">Geotechnics (Master)</string>
+    <string name="spec_civil_mat_master">Civil Engineering Materials (Master)</string>
+    <string name="spec_civil_struct_master">Structures (Master)</string>
+    <string name="spec_civil_struct_const_master">Structures and Construction (Master)</string>
+
+    <string name="spec_hydro_seismic_license">Seismic Geophysics (License)</string>
+    <string name="spec_hydro_petro_master">Petroleum Geophysics (Master)</string>
+    <string name="spec_hydro_mineral_license">Mineral and Energy Resources (License)</string>
+    <string name="spec_hydro_geol_master">Petroleum Geology (Master)</string>
+    <string name="spec_hydro_trans_license">Transport of Hydrocarbons (License)</string>
+    <string name="spec_hydro_mech_petro_license">Mechanics of Petrochemical Units (License)</string>
+    <string name="spec_hydro_mech_field_license">Mechanics of Oil Field Sites (License)</string>
+    <string name="spec_hydro_trans_dist_master">Transport and Distribution of Hydrocarbons (Master)</string>
+    <string name="spec_hydro_mech_petro_master">Mechanics of Petrochemical Units (Master)</string>
+    <string name="spec_hydro_mech_field_master">Mechanics of Oil Field Sites (Master)</string>
+    <string name="spec_hydro_treat_license">Technologies and Treatment of Oil and Gas (License)</string>
+    <string name="spec_hydro_refining_master">Refining (Master)</string>
+    <string name="spec_hydro_petro_tech_master">Petrochemistry Technology (Master)</string>
+    <string name="spec_hydro_instr_master">Instrumentation in Petrochemical Industry (Master)</string>
+    <string name="spec_hydro_auto_license">Automatic Control (License)</string>
+    <string name="spec_hydro_elec_license">Industrial Electricity (License)</string>
+    <string name="spec_hydro_auto_master">Automatic Control (Master)</string>
+    <string name="spec_hydro_elec_master">Industrial Electricity (Master)</string>
+    <string name="spec_hydro_econ_license">Petroleum Economy (License)</string>
+    <string name="spec_hydro_econ_master">Hydrocarbon Economics (Master)</string>
+
+    <string name="spec_law_pub_license">Public Law (License)</string>
+    <string name="spec_law_pub_master">Public Law (Master)</string>
+    <string name="spec_law_priv_license">Private Law (License)</string>
+    <string name="spec_law_priv_master">Private Law (Master)</string>
+    <string name="spec_law_biz_master">Business Law (Master)</string>
+    <string name="spec_law_ir_license">International Relations (License)</string>
+    <string name="spec_law_org_license">Political and Administrative Organizations (License)</string>
+    <string name="spec_law_admin_master">Local Administration (Master)</string>
+    <string name="spec_law_coop_master">International Cooperation (Master)</string>
+
+    <string name="spec_econ_entrep_license">Entrepreneurship (License)</string>
+    <string name="spec_econ_mgmt_license">Management (License)</string>
+    <string name="spec_econ_fin_mgmt_license">Financial Management (License)</string>
+    <string name="spec_econ_mgmt_master">Management (Master)</string>
+    <string name="spec_econ_pub_mgmt_master">Public Management (Master)</string>
+    <string name="spec_econ_fin_mgmt_master">Financial Management (Master)</string>
+    <string name="spec_econ_mark_license">Marketing (License)</string>
+    <string name="spec_econ_mark_serv_license">Marketing of Services (License)</string>
+    <string name="spec_econ_trade_license">International Trade and Logistics (License)</string>
+    <string name="spec_econ_fin_trade_master">Finance and International Trade (Master)</string>
+    <string name="spec_econ_mark_serv_master">Marketing of Services (Master)</string>
+    <string name="spec_econ_hotel_master">Hotel and Tourism Marketing (Master)</string>
+    <string name="spec_econ_quant_license">Quantitative Economics (License)</string>
+    <string name="spec_econ_bank_license">Monetary and Banking Economics (License)</string>
+    <string name="spec_econ_biz_license">Economics and Business Management (License)</string>
+    <string name="spec_econ_insur_master">Insurance Economics (Master)</string>
+    <string name="spec_econ_quant_master">Quantitative Economics (Master)</string>
+    <string name="spec_econ_inter_master">International Economics (Master)</string>
+    <string name="spec_econ_biz_master">Economics and Business Management (Master)</string>
+    <string name="spec_econ_acc_fin_license">Accounting and Finance (License)</string>
+    <string name="spec_econ_acc_tax_license">Accounting and Taxation (License)</string>
+    <string name="spec_econ_bank_insur_license">Bank and Insurance Finance (License)</string>
+    <string name="spec_econ_acc_audit_master">Accounting and Audit (Master)</string>
+    <string name="spec_econ_acc_tax_master">Accounting and Advanced Taxation (Master)</string>
+    <string name="spec_econ_fin_insur_master">Finance and Insurance (Master)</string>
+    <string name="spec_econ_fin_bank_master">Finance and Banking (Master)</string>
+
+    <string name="spec_lang_arabic_license">Arabic Literature (License)</string>
+    <string name="spec_lang_ling_license">General Linguistics (License)</string>
+    <string name="spec_lang_arabic_master">Arabic Literature (Master)</string>
+    <string name="spec_lang_ling_master">General Linguistics (Master)</string>
+    <string name="spec_lang_english_license">English Language (License)</string>
+    <string name="spec_lang_english_master">English Language (Master)</string>
+    <string name="spec_lang_french_license">French Language (License)</string>
+    <string name="spec_lang_french_master">French Language (Master)</string>
+
+    <string name="spec_igee_auto_master">Automation (Master)</string>
+    <string name="spec_igee_english">English</string>
+    <string name="spec_igee_algebra">Algebra and Number Theory</string>
+    <string name="spec_igee_trans_en">Arabic-English-Arabic Translation</string>
+    <string name="spec_igee_math">Mathematics</string>
+    <string name="spec_igee_proc_eng">Process Engineering</string>
+    <string name="spec_igee_trans_fr">Arabic-French-Arabic Translation</string>
+    <string name="spec_igee_org_chem">Applied Organic Chemistry</string>
+    <string name="spec_igee_elec_license">Electrical and Electronic Engineering (License)</string>
+    <string name="spec_igee_telecom_master">Master in Telecommunications (Master)</string>
+
+    <string name="spec_ista_mmq_license">Measurements, Metrology and Quality (License)</string>
+    <string name="spec_ista_telecom_master">Telecommunications (Master)</string>
+    <string name="spec_ista_elec_master">Electrical Engineering (Master)</string>
+
+    <string name="no_spec_found">no speciality found!!</string>
+    <string name="specialities_text">Specialities</string>
+    <!-- Navigation Strings -->
+    <string name="title_activity_main">Home</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_faculties">Faculties</string>
+
     <string name="Open">Open</string>
     <string name="Close">Close</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="lorem_ipsum">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
-        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
-        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
-        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
-        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
-        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
-        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
-        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
-        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
-        bibendum, vel congue leo egestas.\n\n
-        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
-        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
-        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
-        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
-        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
-        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
-        est.\n\n
-        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
-        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
-        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
-        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
-        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
-        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
-        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
-        convallis.\n\n
-        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
-        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
-        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
-        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
-        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
-        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
-        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
-    </string>
-
-
-        <string name="app_description">Discover your university easily</string>
-        <string name="stats_title">University Statistics</string>
-
-        <string name="logo_desc">University Logo</string>
-
-        <string name="world_icon">🌍</string>
-        <string name="world_rank">World Ranking</string>
-        <string name="world_rank_value">#2500</string>
-
 </resources>

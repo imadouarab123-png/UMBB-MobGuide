@@ -3,8 +3,6 @@ package com.example.umbbmobguide;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.TextView;
 import androidx.appcompat.widget.Toolbar;
 
 import androidx.annotation.NonNull;
@@ -13,13 +11,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.activity.OnBackPressedCallback;
 
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-DrawerLayout drawerLayout;
-NavigationView navigationView;
-Toolbar toolbar;
+
+    DrawerLayout drawerLayout;
+    NavigationView navigationView;
+    Toolbar toolbar;
     CardView btnAbout, btnFaculties;
 
     @Override
@@ -62,25 +62,19 @@ if(savedInstanceState == null){
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
         int id = item.getItemId();
 
         if (id == R.id.settings) {
             startActivity(new Intent(MainActivity.this, settingPage.class));
         }
-        else if (id == R.id.aboutUs) {
-            startActivity(new Intent(MainActivity.this, AboutUS.class));
+//        else if (id == R.id.aboutUs) {
+//            startActivity(new Intent(MainActivity.this, AboutUS.class));
+//        }
+else if(id == R.id.exitApp){
+            System.exit(0);
         }
 
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
-    }
-    @Override
-    public void onBackPressed(){
-        if(drawerLayout.isDrawerOpen(GravityCompat.START)){
-            drawerLayout.closeDrawer(GravityCompat.START);
-        }else{
-            super.onBackPressed();
-        }
     }
 }
