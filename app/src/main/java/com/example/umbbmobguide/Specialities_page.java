@@ -15,7 +15,7 @@ public class Specialities_page extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.specialities_page);
+        setContentView(R.layout.activity_specialities_page);
 
         // getting department name from intent
         String departmentName = getIntent().getStringExtra("name");

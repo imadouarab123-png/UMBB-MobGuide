@@ -15,7 +15,7 @@ private RadioButton radioEng, radioAr;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.setting_page);
+        setContentView(R.layout.activity_setting_page);
 
         radioGrpLanguage = findViewById(R.id.radioGroupLanguage);
         radioEng = findViewById(R.id.radioEnglish);
